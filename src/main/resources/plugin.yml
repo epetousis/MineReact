@@ -1,6 +1,6 @@
 name: MineReact
 main: com.evanpetousis.minereact.MineReact
-version: 1.0-SNAPSHOT
+version: 1.0.1-SNAPSHOT
 author: Evan Petousis
 commands:
   react:
