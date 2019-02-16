@@ -53,7 +53,7 @@ public final class MineReact extends JavaPlugin implements Listener {
             ReactableMessage message = messageStore.get(playerId).get(messageIndex);
             message.addReact(reaction);
             int reactCount = message.getReacts(reaction);
-            String statusMsg = String.format("%1$s reacted %2$s to %3$s [%4$s %5$s]: '%6$s'", sender.getName(), message.getReactIcon(reaction), playerString, reactCount, message.getReactIcon(reaction), StringUtils.abbreviate(message.message, 10));
+            String statusMsg = String.format("%1$s reacted %2$s to %3$s [%4$s %5$s]: '%6$s'", sender.getName(), message.getReactIcon(reaction), player.getDisplayName(), reactCount, message.getReactIcon(reaction), StringUtils.abbreviate(message.message, 10));
             Bukkit.getServer().broadcastMessage(statusMsg);
             return true;
         }
