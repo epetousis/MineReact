@@ -1,10 +1,8 @@
 name: MineReact
 main: com.evanpetousis.minereact.MineReact
 version: 1.0-SNAPSHOT
-author: Meme
+author: Evan Petousis
 commands:
   react:
     description: React to any message.
     usage: /react <reaction> <player> <index?>
-    permission: MineReact.react
-    permission-message: You don't have permission to react to messages.
